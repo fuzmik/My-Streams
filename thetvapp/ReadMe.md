@@ -1,7 +1,10 @@
 > [!WARNING]
 > DISCLAIMER: The scripts and links provided on this GitHub page are for informational and educational purposes only. I do not claim responsibility for any issues, damages, or losses that may arise from the use of these scripts or links. Users are advised to use them at their own risk and discretion. Always review and test any code or links before implementing them in your projects.
 
-I have not used this script yet.
+> [!NOTE]
+> I have not used this script.
+
+## WINDOWS INSTALL
 
 Run the 'setup_service.bat' to install the 'thetvapp-m3u.exe' as a Windows service.
 
@@ -20,3 +23,4 @@ Finding your local IP address:
     Type ipconfig and press Enter.
     Look for the section corresponding to your network connection (e.g., Wi-Fi or Ethernet).
     Find the IPv4 Address, which will be in the format 192.168.x.x or similar. Use this IP address along with the port 4123 to access the service from other devices.
+

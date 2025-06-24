@@ -1,32 +1,59 @@
 > [!WARNING]
 > DISCLAIMER: The scripts and links provided on this GitHub page are for informational and educational purposes only. I do not claim responsibility for any issues, damages, or losses that may arise from the use of these scripts or links. Users are advised to use them at their own risk and discretion. Always review and test any code or links before implementing them in your projects.
 
+📌 Repo Discussion: ( Changes, updates, Info ) [Link](https://github.com/BuddyChewChew/My-Streams/issues/5)
 
-> [!TIP]
-> Check out <a href="https://github.com/BuddyChewChew/My-Streams/tree/main/Google%20Script%20And%20Install%20Info" target="_blank">Google Script And Install Info</a> If you would like to host your own version of the (Pluto, Samsung, Stirr, Plex, PBS, Tubi and Roku Playlist (M3U8) script. You can use it in your own IPTV Player. `Pluto, Samsung, Stirr` are the only playlists working right now.
-## A list of links for: Streaming Sites, Epgs and M3u playlists. 
+📌 Discord: https://discord.gg/xhAdX8Ryxp
 
-<ins>STREAMING SITES LINKS</ins>
-- https://fmhy.pages.dev/videopiracyguide#live-tv--sports Streaming Sites And Info
-- https://github.com/iptv-org/awesome-iptv A curated list of resources related to IPTV
-
-<ins>M3U PLAYLIST</ins>
-- Multiple Playlists: `iptv-org` https://github.com/iptv-org/iptv
-- Multiple Playlists: `apsattv` https://apsattv.com/streams.html
->
-- Playlist: `adultswim` https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_adultswim.m3u
-- Playlist: `tvpass` https://tvpass.org/playlist/m3u
-- Playlist: `MoveOnJoy` https://github.com/iptv-org/iptv/blob/master/streams/us_moveonjoy.m3u
-- Playlist: `MoveOnJoy` https://bit.ly/moj-m3u8  EPG: https://bit.ly/moj-epg
-- Playlist: `MoveOnJoy` https://raw.githubusercontent.com/onyxplayott/OnyxPlayOTT-VODTV/refs/heads/IPTV-Leader/PANGLIMATV_MOVEONJOYTV.m3u  EPG: https://raw.githubusercontent.com/ydbf/MoveOnJoy/refs/heads/main/epg.xml
+💲 Donate: https://github.com/BuddyChewChew/My-Streams/tree/main/Donate
 
 
-<ins>EPGS</ins>
-- Site: https://www.bevy.be/epg-guide/
-- Site: https://github.com/acidjesuz/EPGTalk
-- Site: https://epgshare01.online/epgshare01
-- Site: https://github.com/matthuisman/i.mjh.nz/ Plex, SamsungTVPlus, Pluto, Stirr, Roku and more.
-- EPG: (Compressed) https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz
-- EPG: (Compressed) https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz Local CH
-- EPG: (Compressed) https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz Cable CH
-- EPG: (Compressed) https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+
+
+---------------------------------------------
+
+## 🏠 REPO HOMEPAGE
+
+⭐ [Backup.m3u](https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u) EPG: [epg_ripper_ALL_SOURCES1.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz) `My Playlist. Work In Progress.`
+ 
+
+⭐ <a href="https://github.com/BuddyChewChew/My-Streams/tree/main/Google%20Script%20And%20Install%20Info" target="_blank">Google Script And Install Info</a> Host your own version of the `Pluto`, `Samsung`, `Stirr`, `Plex`, `Roku` and `Tubi` playlist script. You can use in your IPTV Player.
+
+⭐ [combine-remote-playlists](https://github.com/BuddyChewChew/combine-remote-playlists) `PLAYLISTS UPDATED 6/9/25`
+
+⭐ [tubi-scraper](https://github.com/BuddyChewChew/tubi-scraper) `Tubi` m3u with epg.
+
+⭐ [localnow-playlist-generator](https://github.com/BuddyChewChew/localnow-playlist-generator) `Localnow` m3u with epg.
+
+⭐ [xumo-playlist-generator](https://github.com/BuddyChewChew/xumo-playlist-generator) `Xumo` m3u with epg.
+
+⭐ [app-m3u-generator](https://github.com/BuddyChewChew/app-m3u-generator) `Pluto`, `Samsung`, `Stirr`, `Plex`, `Tubi` Playlist & EPG Direct Links.
+
+---------------------------------------------
+
+# 🌎 Links For: Streaming Sites, Epgs and M3u playlists. 
+
+### 🔵 STREAMING SITES & LINKS
+- `videopiracyguide` [Link](https://fmhy.pages.dev/videopiracyguide#live-tv--sports) Resources related to IPTV, Streaming and info.
+- `awesome-iptv` [Link](https://github.com/iptv-org/awesome-iptv) A curated list of resources related to IPTV.
+
+### 🔵 M3U PLAYLIST
+- `iptv-org` [Multiple Playlists](https://github.com/iptv-org/iptv)
+- `apsattv` [Multiple Playlists](https://apsattv.com/streams.html)
+- `adultswim` [Playlist](https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_adultswim.m3u)
+- `tvpass.org` [Playlist](https://tvpass.org/playlist/m3u) From: tvpass.org
+- `thetvapp` [Playlist](https://github.com/mikekaprielian/rtnaodhor93n398/blob/main/en/videoall.m3u) | [Epg](https://raw.githubusercontent.com/mikekaprielian/rtnaodhor93n398/refs/heads/main/en/videoall.xml) From: rtnaodhor93n398
+
+- `MoveOnJoy` [Playlist](https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_moveonjoy.m3u) | [Epg](https://raw.githubusercontent.com/ydbf/MoveOnJoy/refs/heads/main/epg.xml) From: iptv-org
+
+
+
+### 🔵 EPGS
+- `www.bevy.be` [Multiple Epg](https://www.bevy.be/epg-guide/)
+- `acidjesuz` [Multiple Epg](https://github.com/acidjesuz/EPGTalk)
+- `epgshare01` [Multiple Epg](https://epgshare01.online/epgshare01)
+- `i.mjh.nz` [Multiple Epg](https://github.com/matthuisman/i.mjh.nz/) Plex, SamsungTVPlus, Pluto, Stirr, Roku and more.
+- `epgshare01` (Compressed) [epg_ripper_ALL_SOURCES1.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz)
+- `epgshare01` (Compressed) [epg_ripper_US_LOCALS2.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz)
+- `epgshare01` (Compressed) [epg_ripper_US1.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz)
+- `epgshare01` (Compressed) [epg_ripper_DUMMY_CHANNELS.xml.gz](https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz) | [List](https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.txt)

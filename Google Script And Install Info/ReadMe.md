@@ -1,71 +1,71 @@
 > [!WARNING]
 > DISCLAIMER: The scripts and links provided on this GitHub page are for informational and educational purposes only. I do not claim responsibility for any issues, damages, or losses that may arise from the use of these scripts or links. Users are advised to use them at their own risk and discretion. Always review and test any code or links before implementing them in your projects.
->
->
 
-## Pluto, Samsung, Stirr, ~~Plex~~, ~~PBS~~, ~~Tubi~~ and ~~Roku~~ Playlist
+# ⭐ Pluto, Samsung, Stirr, Plex, Roku & Tubi With (EPG)
 
-This script generates an m3u8 playlist from the channels provided by services such as Pluto, Samsung, Stirr, Plex, PBS, Tubi, and Roku. It is based on the original script created by matthuisman, which can be found at [matthuisman's GitHub repository](https://github.com/matthuisman/i.mjh.nz). 
+📌 (4/2/25) EPGS are hit and miss right now. The source for the EPGs is having server problems. Hopefully to be fixed soon.
 
-> [!NOTE]
-> `Pluto, Samsung, Stirr` are the only playlists working right now.
+👉 I created a discussion thread  [here](https://github.com/BuddyChewChew/My-Streams/issues/3)
+ to discuss issues and script changes.
 
-### How to Add the Script to Your Google Account
-
-Go <a href="https://script.google.com/home/start" target="_blank">here</a> and click the "New Project" button in the upper left corner. Then, copy the script from <a href="https://github.com/BuddyChewChew/My-Streams/blob/main/Google%20Script%20And%20Install%20Info/google_apps_script" target="_blank">google_apps_script</a> and paste it into the script editor. Once done, deploy the script.
-
-> Thanks [jeepcook](https://github.com/jeepcook) for editing the script 
-
-### Follow this video tutorial to learn how to deploy a Google Apps Script:
-
-[How to Deploy a Google Web App](https://www.youtube.com/watch?v=-AlstV1PAaA)
-
-During the deployment process, make sure to select **"Anyone"** for the "Who has access" option, so the app can access the URL and load without requiring authentication.
-
-Once deployed, you will get a URL similar to:
-
-`https://script.google.com/macros/s/...gwlprM_Kn10kT7LGk/exec`
-
-To use the script, you need to add the `region` and `service` parameters at the end of the URL. For example:
-
-`https://script.google.com/macros/s/...gwlprM_Kn10kT7LGk/exec?region=us&service=Plex`
-
-Simply replace `region=us` and `service=Plex` with the appropriate region and service values from the available parameters listed above.
-
-**Tip:** For a cleaner and more concise URL, consider using a URL shortener like [bit.ly.com](https://bitly.com/) and appending the necessary parameters at the end.
+👉 If your looking for direct playlist.m3u files for "Pluto, Samsung, Stirr, Plex, Roku & Tubi". Go here [iptv-streams](https://github.com/iptv-org/iptv/tree/master/streams) and here for .epg files [i.mjh.nz](https://github.com/matthuisman/i.mjh.nz). But this script has more channels. `This repository does not host or store any video files or streams.`
 
 
-### Script Access URL
+_This script generates an m3u8 playlist from the channels provided by services such as Pluto, Samsung, Stirr, Plex, Roku and Tubi. It is based on the original script created by matthuisman, which can be found at [matthuisman's GitHub repository](https://github.com/matthuisman/i.mjh.nz)._
 
-Use the following URL to access the hosted script. Replace the `ADD_REGION` and `ADD_SERVICE` placeholders with your desired values.
 
-Example: `https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec?region=all&service=SamsungTVPlus`
+## Follow this video tutorial to learn how to deploy a Google Apps Script:
+
+[How to Deploy a Google Web App](https://rumble.com/v6qaofu-streaming-apps-script-install-instructions.html?mref=z8mk6&mc=2335k)
+
+<a href="https://rumble.com/v6qaofu-streaming-apps-script-install-instructions.html?mref=z8mk6&mc=2335k" title="PLAY VIDEO"><img src="https://github.com/BuddyChewChew/My-Streams/blob/main/Rumble_Thumb.png" width="480" height="280"></a>
+
+## How to Add the Script to Your Google Account
+
+- Go <a href="https://script.google.com/home/start" target="_blank">here</a> and click the "New Project" button in the upper left corner. Then, copy the script from <a href="https://github.com/BuddyChewChew/My-Streams/blob/main/Google%20Script%20And%20Install%20Info/google_apps_script" target="_blank">google_apps_script</a> and paste it into the script editor. Once done, deploy the script.
+
+- During the deployment process, make sure to select **"Anyone"** for the "Who has access" option, so the app can access the URL and load without requiring authentication.
+
+- Once deployed, you will get a URL similar to:
+
+▶️ Example:  `https://script.google.com/macros/s/...gwlprM_Kn10kT7LGk/exec`
+
+
+## Script Access URL
+
+Use the following URL to access the hosted script. Replace `YOUR_SCRIPT_ID`, `all` and `plex` placeholders with your desired values.
+
+▶️ Example: `https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec?region=all&service=Plex`
 
 After customizing the URL by replacing the ADD_REGION and ADD_SERVICE placeholders with your desired region and service (e.g., us for the US region and Pluto for the service), copy the complete URL and paste it into the "Add Playlist" or "M3U8 URL" section of your IPTV application. Once added, the app will load both the channels and the guide information
 
-### Available Service Parameter Values
+- `?region=all&service=SamsungTVPlus`
+- `?region=all&service=Plex`
+- `?region=all&service=PlutoTV`
+- `?region=all&service=Stirr`
+- `?region=all&service=Roku`
+- `?region=all&service=Tubi`
+
+## Available Service Parameter Values
 
 Choose one of the following services to include in the `service` parameter:
 
-### WORKING PLAYLISTS
+Working `service`:
 
 - SamsungTVPlus
+- Plex
 - PlutoTV
+- Roku
 - Stirr
+- Tubi
 
-### NON WORKING PLAYLISTS
-
-- ~~ ~~Plex~~ ~~
-- ~~ ~~Roku~~ ~~
-- ~~ ~~PBS~~ ~~
-- ~~ ~~PBSKids~~ ~~
-- ~~ ~~Tubi~~ ~~
-
-### Available Region Parameter Values
+## Available Region Parameter Values
 
 Use one of these region codes to specify the region in the `region` parameter:
 
-- `all` (for all regions)
+ 📌 `Not all region codes work with every service. I would just use "all" or "us" for (United States).`
+
+- `all` (for all regions) ✔️
 - `ar` (Argentina)
 - `br` (Brazil)
 - `ca` (Canada)
@@ -78,5 +78,17 @@ Use one of these region codes to specify the region in the `region` parameter:
 - `mx` (Mexico)
 - `no` (Norway)
 - `se` (Sweden)
-- `us` (United States)
-  Sorts the channels by their assigned channel number.
+- `us` (United States) ✔️
+  Sorts the channels by their assigned channel number
+
+> [!TIP]
+> For a cleaner and more concise URL, consider using a URL shortener like [bit.ly.com](https://bitly.com/) and appending the necessary parameters at the end.
+
+
+> [!IMPORTANT]
+> This repository does not host or store any video files. It simply hosts a script that you can copy&paste to self-host on GOOGLE APP SCRIPTS. The content was intentionally made publicly available. The copyright holders granted permission and consent to these websites to stream and share the content they provide.
+> 
+> Please note that linking does not directly infringe copyright, as no copies are made on this repository or its servers. Therefore, sending a DMCA notice to GitHub or the maintainers of this repository is not a valid course of action. To remove the content from the web, you should contact the website or hosting provider actually hosting the material.
+
+
+*Thanks [jeepcook](https://github.com/jeepcook) for editing some of the script and GROK AI for the rest.*
